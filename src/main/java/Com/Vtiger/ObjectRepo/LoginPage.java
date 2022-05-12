@@ -21,7 +21,7 @@ WebDriver driver;
 	}
 
 	@FindBy(name="user_name")				//Rule 2 Use @findby annotation to loacte
-	 WebElement usernametxtfld;		//Rule 3  Declare webelements as pvt
+	private WebElement usernametxtfld;		//Rule 3  Declare webelements as pvt
 	
 	@FindBy(name="user_password")
 	private WebElement passwordtxtfld;
